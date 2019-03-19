@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Sayac Okuma</h2>
+
+<form action="/Home/Sayac" method="post">
+
+    <label for="ilkSayac" > İlk Sayac Degeri </label>
+    <input type="number" name="ilkSayac" value="" id="ilkSayac" class="form-control"/>
+
+    <label for="sonSayac">Son sayac degeri</label> 
+     <input type="number" name="sonSayac" value="" id="sonSayac" class="form-control" />
+
+     <select name="meskenTipi" id="cmbMesken" class="form-control">
+         <option value="Mesken">Mesken</option>
+         <option value="Umumi">Umumi</option>
+    </select>
+
+     <input type="submit" name="Hesapla" value="Hesapla" class="btn btn-success" />
+
+</form>
+
+

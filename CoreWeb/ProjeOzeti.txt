@@ -1,0 +1,11 @@
+﻿
+Iski icin sayac okuma ve fiyatlandirma yapilacak.
+
+Ekran dan son index ve ilk index degerleri alinacak
+
+Suyun birim fiyati 
+Mesken icin : 1.3 TL
+Umumi icin  :0.9 TL
+
+Atik Su bedeli Litre basina 0.3 TL olarak ucretlendirilecek.
+
